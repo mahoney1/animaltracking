@@ -1,0 +1,21 @@
+{
+    "CCP_FILE": "connection.json",
+    "CHANNEL": "mychannel",
+    "CONTRACT_NAMESPACE": "org.example.animaltracking",
+    "CONTRACT_NAME": "animaltracking-ts",
+    "LISTENER_NAME": "animaltracking-ls",
+    "EVENT_NAME": "animaltracking-ev",
+    "HOME": "/home/demo/dash",
+    "HISTORY_ID": "000011",
+    "IDENTITY_LABEL": "admin",
+    "MSP_NAME": "Org1MSP",
+    "WALLETDIR": ".fabric-vscode/wallets",
+    "WALLET": "local_fabric_wallet",
+    "IBP_CCP_FILE": "connection_IBP.json",
+    "IBP_CHANNEL": "channel1",
+    "IBP_MSP_NAME": "org1msp",
+    "IBP_IDENTITY_LABEL": "ibpuser",
+    "IBP_WALLET": "ibpuserwallet",
+    "IBP_PREFIX": "IBP-",
+    "IBP_HISTORY_ID": "000099"
+}

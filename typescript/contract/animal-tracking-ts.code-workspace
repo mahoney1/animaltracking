@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "src"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"debug.allowBreakpointsEverywhere": true,
+		"debug.openExplorerOnEnd": true,
+		"git.ignoreLimitWarning": true
+	}
+}

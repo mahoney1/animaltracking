@@ -1,0 +1,28 @@
+{
+    "name": "animal-tracking-client",
+    "version": "1.0.0",
+    "description": "Animal tracking client",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc **/*.ts --lib ES2017 --resolveJsonModule",
+        "lint": "tslint -c tslint.json '**/*.ts'",
+        "pretest": "npm run lint",
+        "build:watch": "tsc -w",
+        "prepublishOnly": "npm run build"
+    },
+    "author": {
+        "name": "Paul O Mahony",
+        "email": "mahoney@uk.ibm.com"
+    },
+    "license": "Apache-2.0",
+    "dependencies": {
+        "events": "^3.0.0",
+        "fabric-network": "~1.4.0",
+        "fabric-client": "~1.4.0",
+        "typescript": "^3.3.3",
+        "ts-node": "^7.0.1"
+    },
+    "devDependencies": {
+        "tslint": "^5.11.0"
+    }
+}
