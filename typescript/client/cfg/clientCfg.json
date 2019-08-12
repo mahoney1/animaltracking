@@ -5,7 +5,7 @@
     "CONTRACT_NAME": "animaltracking-ts",
     "LISTENER_NAME": "animaltracking-ls",
     "EVENT_NAME": "animaltracking-ev",
-    "HOME": "/home/demo/dash",
+    "HOME": "/home/demo/",
     "HISTORY_ID": "000011",
     "IDENTITY_LABEL": "admin",
     "MSP_NAME": "Org1MSP",
