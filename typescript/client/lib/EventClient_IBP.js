@@ -112,8 +112,8 @@ var EventClient = /** @class */ (function (_super) {
                         network = _a.sent();
                         console.log('Getting contract...');
                         contract = network.getContract(CONFIG.CONTRACT_NAME, CONFIG.CONTRACT_NAMESPACE);
-                        console.log('Getting listener...');
-                        file1 = fs.writeFileSync('events.json', '');
+                        console.log('Starting listener...');
+                        file1 = fs.writeFileSync('events.json', '[]');
                         return [4 /*yield*/, contract.addContractListener(CONFIG.LISTENER_NAME, CONFIG.EVENT_NAME, function (error, event, blockNumber, transactionId, status) {
                                 if (error) {
                                     console.error(error);

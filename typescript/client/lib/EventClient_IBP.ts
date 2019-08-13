@@ -62,8 +62,8 @@ export class EventClient extends EventEmitter {
         const network = await gateway.getNetwork(CONFIG.IBP_CHANNEL);
         console.log('Getting contract...');
         const contract = network.getContract(CONFIG.CONTRACT_NAME, CONFIG.CONTRACT_NAMESPACE);
-        console.log('Getting listener...');
-        const file1 = fs.writeFileSync('events.json', '');
+        console.log('Starting listener...');
+	const file1 = fs.writeFileSync('events.json', '[]'); // empty JSON file
 
         const listener = await contract.addContractListener(CONFIG.LISTENER_NAME, CONFIG.EVENT_NAME, (error: Error, event: any, blockNumber: string, transactionId: string, status: string): any  => {
             if (error) {

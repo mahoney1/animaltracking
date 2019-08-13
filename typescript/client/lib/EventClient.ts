@@ -58,9 +58,9 @@ export class EventClient extends EventEmitter {
         const network = await gateway.getNetwork(CONFIG.CHANNEL);
         console.log('Getting contract...');
         const contract = network.getContract(CONFIG.CONTRACT_NAME, CONFIG.CONTRACT_NAMESPACE);
-        console.log('Getting listener...');
+        console.log('Starting listener...');
     // zap the events.json file
-        const file1 = fs.writeFileSync('events.json', '');
+        const file1 = fs.writeFileSync('events.json', '[]');
 
         const listener = await contract.addContractListener(CONFIG.LISTENER_NAME, CONFIG.EVENT_NAME, (error: Error, event: any, blockNumber: string, transactionId: string, status: string): any  => {
             if (error) {
