@@ -7,7 +7,7 @@
 
 This Animal Tracking Package, written in Typescript, is based on the new Hyperledger Fabric 1.4 programming model, is an 'intermediate' level sample of writing a smart contract for an Animal Tracking blockchain network. It has a range of 'typical' transaction types, with varying parameters and functional checks in context, by way of example. It also has 3 'everyday' query transaction types: history, ownership and ad-hoc query functions eg: find records of a certain transaction type + particular species.
 
-There is a tutorial (soon to be published) that accompanies this contract/client apps - currently it is here -> https://github.com/mahoney1/docs/blob/master/animaltracking-tutorial.md
+There is a tutorial that accompanies this contract/client apps - it is here https://developer.ibm.com/tutorials/integrate-typescript-smart-contract-with-react-based-dashboard-app/
 
 The smart contract, when deployed,  allows participating organisations (some of whom could be those listed below) to submit different transactions (and depending on who is issuing the identities), according to their organisational role / contractual engagement in the network. The sample can be run using one or two organisations too (as provided to VSCode's local Fabric, or using a network taken from Fabric Samples for which a connection file is built) because this is typically what you will do when you set up your local Fabric for development/testing etc). Participating parties (entities, organisations) can potentially be:
 
