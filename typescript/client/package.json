@@ -7,6 +7,7 @@
         "build": "tsc **/*.ts --lib ES2017 --resolveJsonModule",
         "lint": "tslint -c tslint.json '**/*.ts'",
         "pretest": "npm run lint",
+        "preinstall": "npx npm-force-resolutions",
         "build:watch": "tsc -w",
         "prepublishOnly": "npm run build"
     },
@@ -20,9 +21,14 @@
         "fabric-network": "~1.4.0",
         "fabric-client": "~1.4.0",
         "typescript": "^3.3.3",
-        "ts-node": "^7.0.1"
+        "ts-node": "^7.0.1",
+        "minimist": "^1.2.5"
     },
     "devDependencies": {
         "tslint": "^5.11.0"
+    },
+    "resolutions": {
+        "minimist": "^1.2.5",
+        "mkdirp": "^1.0.4"
     }
 }
