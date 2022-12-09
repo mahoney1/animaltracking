@@ -18,8 +18,8 @@
     "license": "Apache-2.0",
     "dependencies": {
         "events": "^3.0.0",
-        "fabric-network": "~1.4.0",
-        "fabric-client": "~1.4.0",
+        "fabric-network": "~1.4.20",
+        "fabric-client": "~1.4.20",
         "typescript": "^3.3.3",
         "ts-node": "^7.0.1",
         "minimist": "^1.2.6"
