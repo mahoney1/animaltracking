@@ -22,7 +22,7 @@
         "fabric-client": "~1.4.0",
         "typescript": "^3.3.3",
         "ts-node": "^7.0.1",
-        "minimist": "^1.2.5"
+        "minimist": "^1.2.6"
     },
     "devDependencies": {
         "tslint": "^5.11.0"
